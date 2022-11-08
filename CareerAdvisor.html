@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="bg-white">
+        <header>
+            <div class="relative bg-white">
+                <div
+                    class="mx-auto block md:flex max-w-7xl items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
+                    <div class="flex justify-start lg:w-0 lg:flex-1 mx-auto">
+                        <a href="index.html">
+                            <span class="sr-only">Your Company</span>
+                            <img class="h-20 w-auto sm:h-20" src="assets/logo.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="block items-center justify-end md:flex md:flex-1 lg:w-0 mt-4 mx-auto">
+                        <a href="https://www.meu.edu.jo/" target="_blank">
+                            <span class="sr-only">Your Company</span>
+                            <img class="h-8 w-auto sm:h-10" src="assets/meu-logo.png" alt="">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <nav class="flex flex-col gap-5 md:flex-row px-4 justify-center items-center md:flex mb-10">
+
+                <a href="index.html" class="text-base font-medium text-gray-500 hover:text-gray-900">Home</a>
+                <a href="AboutUs.html" class="text-base font-medium text-gray-500 hover:text-gray-900">About us</a>
+                <a href="Departments.html"
+                    class="text-base font-medium text-gray-500 hover:text-gray-900">Departments</a>
+                <a href="CareerAdvisor.html" class="w-full rounded-md border border-transparent bg-[#8C0E12] px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0  sm:inline-flex sm:w-auto sm:flex-shrink-0 sm:items-center text-center">Career
+                    Advisor</a>
+                <a href="FacultyStaff.html" class="text-base font-medium text-gray-500 hover:text-gray-900">Faculty
+                    Staff</a>
+                <a href="ContactUs.html" class="text-base font-medium text-gray-500 hover:text-gray-900">Contact Us</a>
+            </nav>
+        </header>
+
+        <section>
+            <div class="relative overflow-hidden bg-white py-16">
+                <div class="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full lg:[overflow-anchor:none]">
+                    <div class="relative mx-auto h-full max-w-prose text-lg" aria-hidden="true">
+                        <svg class="absolute top-12 left-full translate-x-32 transform" width="404" height="384"
+                            fill="none" viewBox="0 0 404 384">
+                            <defs>
+                                <pattern id="74b3fd99-0a6f-4271-bef2-e80eeafdf357" x="0" y="0" width="20" height="20"
+                                    patternUnits="userSpaceOnUse">
+                                    <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                                </pattern>
+                            </defs>
+                            <rect width="404" height="384" fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)" />
+                        </svg>
+                        <svg class="absolute top-1/2 right-full -translate-y-1/2 -translate-x-32 transform" width="404"
+                            height="384" fill="none" viewBox="0 0 404 384">
+                            <defs>
+                                <pattern id="f210dbf6-a58d-4871-961e-36d5016a0f49" x="0" y="0" width="20" height="20"
+                                    patternUnits="userSpaceOnUse">
+                                    <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                                </pattern>
+                            </defs>
+                            <rect width="404" height="384" fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)" />
+                        </svg>
+                        <svg class="absolute bottom-12 left-full translate-x-32 transform" width="404" height="384"
+                            fill="none" viewBox="0 0 404 384">
+                            <defs>
+                                <pattern id="d3eb07ae-5182-43e6-857d-35c643af9034" x="0" y="0" width="20" height="20"
+                                    patternUnits="userSpaceOnUse">
+                                    <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                                </pattern>
+                            </defs>
+                            <rect width="404" height="384" fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="relative px-4 sm:px-6 lg:px-8">
+                    <div class="mx-auto max-w-prose text-lg">
+                        <h1>
+                            <span class="block text-center text-4xl font-semibold text-[#8C0E12] ">Career Advisor
+                            </span>
+                            <span
+                                class="mt-2 block text-center text-lg font-bold leading-8 tracking-tight text-gray-900 sm:text-lg">
+                                Faculty of Information Technology</span>
+                        </h1>
+                    </div>
+                    <div class="prose prose-lg prose-indigo mx-auto mt-6 text-gray-500">
+                        <p>Our advisors specialize with helping students and alumni identify their interests, abilities,
+                            and values that coincide with majors at MEU and how they can relate to careers in their
+                            future. Advisors can assist with:
+                        </p>
+                        <ol role="list">
+                            <li>
+                                Introducing the students to strategies for identifying possible career interests along
+                                with exploring interests and abilities.
+                            </li>
+                            <li>
+                                Self Awareness by dicussing students career goals
+                            </li>
+                            <li>
+                                
+                                Identifying opportunities by exploring what careers matter to gather career information 
+                            </li>
+                            <li> 
+                                Investigating graduate and professional school options by talking to Professionals in a student field, alumni, faculty and current students
+
+                            </li>
+                            <li> 
+                                Developing a job search strategy being ready to meet to assist with self assessment, exploring career possibilities, researching careers or anything else related to student career development.
+                            </li>
+                            <li> 
+                                Connecting with employers and preparing with mock interviews and workshops on best practices.
+                            </li>
+                            <li> 
+
+                                Providing students an amount of valuable knowledge about building contacts and establishing professional networks
+                            </li>
+                       
+                        </ol>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="bg-white">
+                <div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
+                  <div class="overflow-hidden rounded-lg bg-[#8C0E12]/90 shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
+                    <div class="px-6 pt-10 pb-12 sm:px-16 sm:pt-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+                      <div class="lg:self-center">
+                        <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                          <span class="block">Career advising</span>
+                         
+                        </h2>
+                        <p class="mt-4 text-lg leading-6 text-gray-200">Sample of Career Workshops organized by Deanship of student relation and attended by information technology faculty students</p>
+                        <a href="Workshops.html" class="mt-8 inline-flex items-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-[#8C0E12] shadow hover:bg-indigo-50">Visit now</a>
+                      </div>
+                    </div>
+                    <div class="aspect-w-5 aspect-h-3 -mt-6 md:aspect-w-2 md:aspect-h-1">
+                      <img class="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20" src="assets/hero-workshops.jpg" alt="App screenshot">
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section>
+            <div class="bg-white">
+                <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 md:py-16 lg:px-8 lg:py-20">
+                  <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                    <span class="block">Training companies!</span>
+                    <span class="block text-[#8C0E12]">for field training course</span>
+                  </h2>
+                  <div class="mt-8 flex">
+                    <div class="inline-flex rounded-md shadow">
+                      <a href="TrainingCompanies.html" class="inline-flex items-center justify-center rounded-md border border-transparent bg-[#8C0E12] px-5 py-3 text-base font-medium text-white hover:bg-[#8C0E12]">Learn more</a>
+                    </div>
+               
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <footer class="bg-[#8C0E12] mt-20">
+            <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+                <div class="mt-8 md:order-1 md:mt-0 mt-2">
+                    <p class="text-center text-base text-white">&copy; 2022 MEU-Faculty of Information Technology, All rights reserved.</p>
+                </div>
+                <div class="md:order-2 mt-2 md:mt-0">
+                  <p class="text-center text-base text-white">Developed and designed By <a href="https://www.hashcodex.com/" target="_blank" class="text-gray-200 font-bold">HashCodex</a></p>
+      
+                </div>
+            </div>
+          </footer>
+</body>
+
+</html>

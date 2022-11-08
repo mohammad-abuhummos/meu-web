@@ -1,0 +1,307 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div class="bg-white">
+    <header>
+      <div class="relative bg-white">
+        <div
+          class="mx-auto block md:flex max-w-7xl items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
+          <div class="flex justify-start lg:w-0 lg:flex-1 mx-auto">
+            <a href="index.html">
+              <span class="sr-only">Your Company</span>
+              <img class="h-20 w-auto sm:h-20" src="assets/logo.png" alt="">
+            </a>
+          </div>
+
+          <div class="block items-center justify-end md:flex md:flex-1 lg:w-0 mt-4 mx-auto">
+            <a href="https://www.meu.edu.jo/" target="_blank">
+              <span class="sr-only">Your Company</span>
+              <img class="h-8 w-auto sm:h-10" src="assets/meu-logo.png" alt="">
+            </a>
+
+          </div>
+        </div>
+      </div>
+      <nav class="flex flex-col gap-5 md:flex-row px-4 justify-center items-center md:flex mb-10">
+
+        <a href="index.html" class="text-base font-medium text-gray-500 hover:text-gray-900">Home</a>
+        <a href="AboutUs.html" class="text-base font-medium text-gray-500 hover:text-gray-900">About us</a>
+        <a href="Departments.html"
+          class="w-full rounded-md border border-transparent bg-[#8C0E12] px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0  sm:inline-flex sm:w-auto sm:flex-shrink-0 sm:items-center text-center">Departments</a>
+        <a href="CareerAdvisor.html" class="text-base font-medium text-gray-500 hover:text-gray-900">Career
+          Advisor</a>
+        <a href="FacultyStaff.html" class="text-base font-medium text-gray-500 hover:text-gray-900">Faculty
+          Staff</a>
+        <a href="ContactUs.html" class="text-base font-medium text-gray-500 hover:text-gray-900">Contact Us</a>
+      </nav>
+    </header>
+
+
+    <section>
+      <div class=" inset-x-0 bottom-0 pb-2 sm:pb-5">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="rounded-lg bg-[#8C0E12] p-2 shadow-lg sm:p-3">
+            <div class="flex flex-wrap items-center justify-between">
+              <nav class="flex flex-col gap-5 md:flex-row justify-center items-center md:flex mx-auto">
+                <a href="Departments.html" class="text-base font-medium text-white hover:text-white">Computer
+                  science</a>
+                <a href="SoftwareEngineering.html" class="text-base font-medium text-white hover:text-white">Software
+                  Engineering</a>
+                <a href="ArtificialIntelligence.html"
+                  class="text-base font-medium text-white hover:text-white">Artificial intelligence
+                </a>
+                <a href="CyberSecurity.html" class="text-base font-medium text-white hover:text-white">Cyber
+                  Security</a>
+
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section>
+      <div class="px-4 sm:px-6 lg:px-8 mx-auto max-w-7xl py-12 px-4">
+        <h1 class="text-3xl font-semibold text-gray-900 ">Career advising</h1>
+        <p class="mt-2 text-sm text-gray-700 mb-10">Sample of Career Workshops organized by Deanship of student relation
+          and attended by information technology faculty students:</p>
+        <div class="sm:flex sm:items-center">
+          <div class="sm:flex-auto">
+            <h1 class="text-xl font-semibold text-gray-900">1-High demand jobs related to Cybersecurity</h1>
+          </div>
+        </div>
+        <div class="mt-8 flex flex-col">
+          <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
+            <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
+              <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
+                <table class="min-w-full divide-y divide-gray-300">
+                  <thead class="bg-gray-50">
+                    <tr>
+                      <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">
+                        Student Name</th>
+                      <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Student ID</th>
+
+
+
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-gray-200 bg-white" id="t1">
+
+
+                    <!-- More people... -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="sm:flex sm:items-center mt-20">
+          <div class="sm:flex-auto">
+            <h1 class="text-xl font-semibold text-gray-900">2-Linkedin Workshop:</h1>
+          </div>
+        </div>
+        <div class="mt-8 flex flex-col">
+          <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
+            <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
+              <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
+                <table class="min-w-full divide-y divide-gray-300">
+                  <thead class="bg-gray-50">
+                    <tr>
+                      <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">
+                        Student Name</th>
+                      <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Student ID</th>
+
+
+
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-gray-200 bg-white" id="t2">
+
+
+                    <!-- More people... -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="sm:flex sm:items-center mt-20">
+          <div class="sm:flex-auto">
+            <h1 class="text-xl font-semibold text-gray-900">3-Project Management Skills.</h1>
+          </div>
+        </div>
+        <div class="sm:flex sm:items-center mt-20">
+          <div class="sm:flex-auto">
+            <h1 class="text-xl font-semibold text-gray-900">4-Jordanian Market Must Needed Skills.</h1>
+          </div>
+        </div>
+        <div class="sm:flex sm:items-center mt-20">
+          <div class="sm:flex-auto">
+            <h1 class="text-xl font-semibold text-gray-900">5-How to Write a professional CV.</h1>
+          </div>
+        </div>
+        <div class="sm:flex sm:items-center mt-20">
+          <div class="sm:flex-auto">
+            <h1 class="text-xl font-semibold text-gray-900">6-Employees Needed Communication Skills.</h1>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    <footer class="bg-[#8C0E12] mt-20">
+      <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+          <div class="mt-8 md:order-1 md:mt-0 mt-2">
+              <p class="text-center text-base text-white">&copy; 2022 MEU-Faculty of Information Technology, All rights reserved.</p>
+          </div>
+          <div class="md:order-2 mt-2 md:mt-0">
+            <p class="text-center text-base text-white">Developed and designed By <a href="https://www.hashcodex.com/" target="_blank" class="text-gray-200 font-bold">HashCodex</a></p>
+
+          </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+      var dataOne = [
+        {
+          "std_name": "Abdullah Nidhal",
+          "id": 202110013
+        },
+        {
+          "std_name": "Rayeh Saed",
+          "id": 202010079
+        },
+        {
+          "std_name": "Wadee Basel",
+          "id": 202110737
+        },
+        {
+          "std_name": "Abedalkreem Hasan",
+          "id": 202110242
+        },
+        {
+          "std_name": "Tareq Durgam",
+          "id": 202110591
+        },
+        {
+          "std_name": "Abedalgani Mahmood",
+          "id": 202020117
+        },
+        {
+          "std_name": "Alhaj Ahmad",
+          "id": 201830012
+        },
+        {
+          "std_name": "Moatmn Mohammad",
+          "id": 201820149
+        },
+        {
+          "std_name": "Ali Alhrbawi",
+          "id": 202110465
+        },
+        {
+          "std_name": "Mohammad Salem",
+          "id": 201820148
+        },
+        {
+          "std_name": "Moad Obead",
+          "id": 201820195
+        },
+        {
+          "std_name": "Lean Alqaisi",
+          "id": 201710343
+        },
+        {
+          "std_name": "Tasneem Humead",
+          "id": 201710545,
+        },
+        {
+          "std_name": "Abedalrahman Alkyali",
+          "id": 202110142
+        }
+      ]
+
+      var dataTwo = [
+        {
+          "std_name": "Hashem Albtoush",
+          "id": 201720568
+        },
+        {
+          "std_name": "Mohammad Kadro",
+          "id": 201810745
+        },
+        {
+          "std_name": "Rahaf Aljelani",
+          "id": 201820185
+        },
+        {
+          "std_name": "Reem Abu Awad",
+          "id": 201823465
+        },
+        {
+          "std_name": "Qotadeh Hesham",
+          "id": 202110001
+        }
+      ]
+
+      function AppendOn(dataArr, id) {
+        dataArr.map((data) => {
+          $(id).append(`
+    <tr>
+                                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm sm:pl-6">
+                                    <div class="flex items-center">
+                                      <div class="h-10 w-10 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                                          </svg>
+                                          
+                                          
+                                      </div>
+                                      <div class="ml-4">
+                                        <div class="font-medium text-gray-900">${data.std_name}</div>
+                                      </div>
+                                    </div>
+                                  </td>
+                                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                                    <div class="text-gray-900">${data.id}</div>
+                                  </td>
+                                 
+                                </tr>
+    `);
+        })
+      }
+
+      AppendOn(dataOne, "#t1");
+      AppendOn(dataTwo, "#t2");
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,289 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script> -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="bg-white">
+        <header>
+            <div class="relative bg-white">
+                <div
+                    class="mx-auto block md:flex max-w-7xl items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
+                    <div class="flex justify-start lg:w-0 lg:flex-1 mx-auto">
+                        <a href="index.html">
+                            <span class="sr-only">Your Company</span>
+                            <img class="h-20 w-auto sm:h-20" src="assets/logo.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="block items-center justify-end md:flex md:flex-1 lg:w-0 mt-4 mx-auto">
+                        <a href="https://www.meu.edu.jo/" target="_blank">
+                            <span class="sr-only">Your Company</span>
+                            <img class="h-8 w-auto sm:h-10" src="assets/meu-logo.png" alt="">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <nav class="flex flex-col gap-5 md:flex-row px-4 justify-center items-center md:flex mb-10">
+
+                <a href="index.html"
+                    class="w-full rounded-md border border-transparent bg-[#8C0E12] px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0  sm:inline-flex sm:w-auto sm:flex-shrink-0 sm:items-center text-center">Home</a>
+                <a href="AboutUs.html" class="text-base font-medium text-gray-500 hover:text-gray-900">About us</a>
+                <a href="Departments.html"
+                    class="text-base font-medium text-gray-500 hover:text-gray-900">Departments</a>
+                <a href="CareerAdvisor.html" class="text-base font-medium text-gray-500 hover:text-gray-900">Career
+                    Advisor</a>
+                <a href="FacultyStaff.html" class="text-base font-medium text-gray-500 hover:text-gray-900">Faculty
+                    Staff</a>
+                <a href="ContactUs.html" class="text-base font-medium text-gray-500 hover:text-gray-900">Contact Us</a>
+            </nav>
+        </header>
+
+        <main>
+            <div>
+                <!-- Hero card -->
+                <div class="relative">
+                    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
+                    <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+                        <div class="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
+                            <div class="absolute inset-0">
+                                <img class="h-full w-full object-cover"
+                                    src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100"
+                                    alt="People working on laptops">
+                                <div class="absolute inset-0 bg-[#921A1D] mix-blend-multiply"></div>
+                            </div>
+                            <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+                                <h1 class="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+                                    <span class="block text-white">Welcome to the faculty of <span>
+                                            <span class="block  text-white">Information Technology</span>
+                                </h1>
+                           
+                                <div class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
+                                    <div
+                                        class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
+                                        <a href="AboutUs.html"
+                                            class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-[#921A1D] shadow-sm hover:bg-indigo-50 sm:px-8">About
+                                            Us</a>
+                                        <a href="ContactUs.html"
+                                            class="flex items-center justify-center rounded-md border border-transparent bg-[#921A1D] bg-opacity-60 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8">Contact
+                                            Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo cloud -->
+                <div class="bg-gray-100">
+                    <div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
+                        <p class="text-center text-base font-semibold text-gray-500">Trusted by Students from over 80
+                            planets</p>
+                        <div class="mt-6 grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-4">
+                            <div class="col-span-1 flex flex-col justify-center items-center">
+                                <img class="h-16" src="assets/icons/Icon.png" alt="Tuple">
+                                <p class="text-center text-7xl font-bold text-[#931D1F] py-4">5334</p>
+                                <p class="text-center text-base font-semibold text-gray-500">University Students</p>
+                            </div>
+                            <div class="col-span-1 flex flex-col justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"  class="w-16 h-16 text-gray-500">
+                                    <path fill-rule="evenodd" d="M8.25 6.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM15.75 9.75a3 3 0 116 0 3 3 0 01-6 0zM2.25 9.75a3 3 0 116 0 3 3 0 01-6 0zM6.31 15.117A6.745 6.745 0 0112 12a6.745 6.745 0 016.709 7.498.75.75 0 01-.372.568A12.696 12.696 0 0112 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 01-.372-.568 6.787 6.787 0 011.019-4.38z" clip-rule="evenodd" />
+                                    <path d="M5.082 14.254a8.287 8.287 0 00-1.308 5.135 9.687 9.687 0 01-1.764-.44l-.115-.04a.563.563 0 01-.373-.487l-.01-.121a3.75 3.75 0 013.57-4.047zM20.226 19.389a8.287 8.287 0 00-1.308-5.135 3.75 3.75 0 013.57 4.047l-.01.121a.563.563 0 01-.373.486l-.115.04c-.567.2-1.156.349-1.764.441z" />
+                                  </svg>
+                                  
+                                <p class="text-center text-7xl font-bold text-[#931D1F] py-4">450</p>
+                                <p class="text-center text-base font-semibold text-gray-500">Faculty Students</p>
+                            </div>
+                            <div class="col-span-1 flex flex-col justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"  class="w-16 h-16 text-gray-500">
+                                    <path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z" />
+                                  </svg>
+                                  
+                                <p class="text-center text-7xl font-bold text-[#931D1F] py-4">4</p>
+                                <p class="text-center text-base font-semibold text-gray-500">Academic Programs</p>
+                            </div>
+                            <div class="col-span-1 flex flex-col justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-16 h-16 text-gray-500">
+                                    <path d="M11.7 2.805a.75.75 0 01.6 0A60.65 60.65 0 0122.83 8.72a.75.75 0 01-.231 1.337 49.949 49.949 0 00-9.902 3.912l-.003.002-.34.18a.75.75 0 01-.707 0A50.009 50.009 0 007.5 12.174v-.224c0-.131.067-.248.172-.311a54.614 54.614 0 014.653-2.52.75.75 0 00-.65-1.352 56.129 56.129 0 00-4.78 2.589 1.858 1.858 0 00-.859 1.228 49.803 49.803 0 00-4.634-1.527.75.75 0 01-.231-1.337A60.653 60.653 0 0111.7 2.805z" />
+                                    <path d="M13.06 15.473a48.45 48.45 0 017.666-3.282c.134 1.414.22 2.843.255 4.285a.75.75 0 01-.46.71 47.878 47.878 0 00-8.105 4.342.75.75 0 01-.832 0 47.877 47.877 0 00-8.104-4.342.75.75 0 01-.461-.71c.035-1.442.121-2.87.255-4.286A48.4 48.4 0 016 13.18v1.27a1.5 1.5 0 00-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.661a6.729 6.729 0 00.551-1.608 1.5 1.5 0 00.14-2.67v-.645a48.549 48.549 0 013.44 1.668 2.25 2.25 0 002.12 0z" />
+                                    <path d="M4.462 19.462c.42-.419.753-.89 1-1.394.453.213.902.434 1.347.661a6.743 6.743 0 01-1.286 1.794.75.75 0 11-1.06-1.06z" />
+                                  </svg>
+                                  
+                                <p class="text-center text-7xl font-bold text-[#931D1F] py-4">280</p>
+                                <p class="text-center text-base font-semibold text-gray-500">Graduates
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- More main page content here... -->
+    </main>
+    </div>
+    <section>
+        <div class="bg-[#8C0E12]  md:bg-white pt-16 lg:py-24">
+            <div class="bg-[#8C0E12] pb-16  lg:relative lg:z-10 lg:pb-0">
+                <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
+                    <div class="relative lg:-my-8">
+                        <div aria-hidden="true" class="md:absolute relative  inset-x-0 top-0 h-1/2 bg-white lg:hidden">
+                        </div>
+                        <div class="mx-auto max-w-md px-4  sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
+                            <div
+                                class="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl shadow-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+                                <img class="object-cover lg:h-full lg:w-full" src="assets/dean.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-12 lg:col-span-2 lg:m-0 lg:pl-8">
+                        <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
+                            <blockquote>
+                                <div>
+                                    <svg class="h-12 w-12 text-white opacity-25" fill="currentColor" viewBox="0 0 32 32"
+                                        aria-hidden="true">
+                                        <path
+                                            d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                                    </svg>
+                                    <p class="mt-6 text-2xl font-medium text-white">It is my pleasure to welcome you to
+                                        the Faculty of Information Technology at the Middle East University (MEU). Over
+                                        the past years, MEU has been making steady progress and growth; we are committed
+                                        to making it sustain this growth.</p>
+                                </div>
+                                <footer class="mt-6">
+                                    <div class="block md:flex justify-between items-center">
+                                        <div>
+
+                                            <p class="text-base font-medium text-white">Dr. Ahmad Al–Hamouz</p>
+                                            <p class="text-base font-medium text-indigo-100">Dean of Information
+                                                Technology Faculty</p>
+                                        </div>
+                                        <a href="DeanofInformationTechnologyFaculty.html"
+                                            class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-[#921A1D] shadow-sm hover:bg-indigo-50 sm:px-8">Read
+                                            More</a>
+                                    </div>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section>
+        <main class="mx-auto mt-16 max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+                <div class="sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:text-left">
+                    <h1>
+                        <span class="mt-1 block text-4xl font-bold tracking-tight sm:text-2xl xl:text-4xl">
+                            <span class="block text-[#8C0E12]">About Us</span>
+                        </span>
+                    </h1>
+                    <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">The Faculty of
+                        Information Technology was founded in September 2005. Since its establishment, the College has
+                        been striving to achieve the University’s mission and objectives in terms of building human
+                        capabilities and qualifying them for excellence and creativity. This requires raising the
+                        quality of academic programs and creating a high quality scientific, research and technical
+                        environment.</p>
+                    <div class="mt-10 ">
+
+                        <a href="AboutUs.html"
+                            class="w-full  rounded-md border border-transparent bg-[#8C0E12] px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0  sm:inline-flex sm:w-auto sm:flex-shrink-0 sm:items-center">Read
+                            More</a>
+                    </div>
+                </div>
+                <div
+                    class="relative mt-12 sm:mx-auto sm:max-w-lg lg:col-span-6 lg:mx-0 lg:mt-0 lg:flex lg:max-w-none lg:items-center">
+                    <svg class="absolute top-0 left-1/2 origin-top -translate-x-1/2 -translate-y-8 scale-75 transform sm:scale-100 lg:hidden"
+                        width="100%" height="784" fill="none" viewBox="0 0 640 784" aria-hidden="true">
+                        <defs>
+                            <pattern id="4f4f415c-a0e9-44c2-9601-6ded5a34a13e" x="118" y="0" width="20" height="20"
+                                patternUnits="userSpaceOnUse">
+                                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                            </pattern>
+                        </defs>
+                        <rect y="72" width="640" height="640" class="text-gray-50" fill="currentColor" />
+                        <rect x="118" width="404" height="784" fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)" />
+                    </svg>
+                    <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
+                        <a href="assets/intro.mp4" target="_blank"
+                            class="relative block w-full overflow-hidden rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                            <span class="sr-only">Watch our video to learn more</span>
+                            <img class="w-full" src="/assets/meu-img.jpeg" alt="">
+                            <span class="absolute inset-0 flex h-full w-full items-center justify-center"
+                                aria-hidden="true">
+                                <svg class="h-20 w-20 text-[#8C0E12]" fill="currentColor" viewBox="0 0 84 84">
+                                    <circle opacity="0.9" cx="42" cy="42" r="42" fill="white" />
+                                    <path
+                                        d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <section class="mx-auto mt-16 max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
+        <div class="relative bg-gray-800 rounded-md">
+            <div class="h-56 bg-[#8C0E12] sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2 rounded-md">
+                <div class="absolute inset-0 bg-[#921A1D] mix-blend-multiply"></div>
+              <img class="h-full w-full object-cover " src="assets/staff/qaswededede.jpg.webp" alt="">
+            </div>
+            <div class="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+              <div class="md:ml-auto md:w-1/2 md:pl-10">
+                <h2 class="text-lg font-semibold text-gray-300">Department Academic Staff</h2>
+                <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Meet Our Academic Staff</p>
+                <div class="mt-8">
+                  <div class="inline-flex rounded-md shadow">
+                    <a href="FacultyStaff.html" class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50">
+                      View Staff
+                      <!-- Heroicon name: mini/arrow-top-right-on-square -->
+                      <svg class="-mr-1 ml-3 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd" />
+                        <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <footer class="bg-[#8C0E12] mt-20">
+        <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+            <div class="mt-8 md:order-1 md:mt-0 mt-2">
+                <p class="text-center text-base text-white">&copy; 2022 MEU-Faculty of Information Technology, All rights reserved.</p>
+            </div>
+            <div class="md:order-2 mt-2 md:mt-0">
+              <p class="text-center text-base text-white">Developed and designed By <a href="https://www.hashcodex.com/" target="_blank" class="text-gray-200 font-bold">HashCodex</a></p>
+  
+            </div>
+        </div>
+      </footer>
+    
+</body>
+
+</html>
